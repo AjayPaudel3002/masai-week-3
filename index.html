@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>BILl GENERATOR</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <style >
+        .outer_box{
+            float: left;
+            border: 1px solid black;
+             height: 600px; 
+             width:400px;
+             margin-left: 150px;
+             background-color: lightyellow;
+        }
+       
+        
+        .recbox{
+
+            border: 1px solid black;
+            height: 50px; 
+            width: 200px ;
+            margin-left: 77px ;
+             margin-top: 10px;
+             background-color: grey;
+        }
+
+
+
+
+         .outer_total_box{
+            
+            float: left; 
+            border: 1px solid black;
+            height: 50px;
+             width: 130px;
+             margin-left: 150px ;
+             margin-top: 30px;
+        }
+        .total_button{
+            height: 50px;
+             width: 130px;
+         }
+
+         #para{
+            font-size: 20px;
+            text-align: center;
+        }
+        #para1{
+            font-size: 20px;
+            text-align: center;
+        }
+        .outer_button_box1{
+            float: left;
+             border: 1px solid black; 
+             height: 30px; 
+            width: 30px;
+             margin-top: 30px ;
+             margin-left: 100px;
+        }
+
+        #green_button{
+            font-size: 20px;
+             text-align: center;
+             height: 30px; 
+             width: 30px; 
+            background-color: green
+        }
+        #orange_button{
+            font-size: 20px;
+             text-align: center;
+             height: 30px;
+             width: 30px; 
+             background-color: orange
+        }
+        .outer_button_box2{
+            float: left;
+             border: 1px solid black;
+             height: 30px;
+             width: 30px;
+             margin-top: 30px ;
+             margin-left: 30px;
+        }
+        .outer_button_box3{
+            float: left;
+             border: 1px solid black;
+             height: 30px;
+             width: 30px;
+             margin-top: 30px ;
+             margin-left: 30px
+        }
+        .outer_button_box4{
+            clear: both;
+            float: left;
+             border: 1px solid black;
+             height: 30px;
+              width: 30px; 
+              margin-left: 100px ;
+              margin-top: 30px
+        }
+        #violet_button{
+            font-size: 20px;
+             text-align: center;
+             height: 30px; 
+             width: 30px;
+             background-color: violet;
+        }
+        .outer_button_box5{
+            clear: both;
+            float: left; 
+            border: 1px solid black;
+            height: 30px;
+             width: 30px;
+             margin-left: 160px ;
+             margin-top: 30px
+        }
+        .min_box{
+            
+            border: 1px solid black ;
+            height: 80px;
+            width: 100px ;
+             margin-top: 50px; 
+             margin-left: 50px;
+             background-color:red;
+        }
+        .text{
+            font-size: 30px;
+            text-align:center;
+        }
+        .max_box{
+            float: right;
+            border: 1px solid black ;
+            height: 80px;
+            width: 150px ;
+             margin-top: -80px;
+             margin-right: 50px;
+             background-color: green;
+        }
+        .min_word{
+            clear: both;
+            height: 80px;
+            width: 100px ;
+            margin-top: 1px; 
+             margin-left: 50px;
+
+        }
+        .max_word{
+            float: right;
+            height: 80px;
+            width: 150px ;
+             margin-top: -110px;
+             margin-right: 50px;
+        }
+        .outer_enter_box{
+            clear: both;
+            float: left; 
+            border: 1px solid black;
+            height: 30px;
+             width: 80px;
+             margin-left: 85px ;
+             margin-top: 30px;
+        }
+        .enter_button{
+            height: 30px;
+             width: 80px;
+
+        }
+        .reset_outer_button{
+            float: left; 
+            border: 1px solid black;
+            height: 30px;
+             width: 80px;
+             margin-left: 30px;
+             margin-top:30px;
+
+        }
+        .reset_button{
+            
+            height: 30px;
+            width: 80px;
+            background-color:orange;
+
+        }
+
+        .outer_box2{
+            float: right;
+            border: 1px solid black;
+             height: 200px; 
+             width:300px;
+            margin-right: 200px;
+             
+        }
+
+        .right_inner_box{
+             height: 200px;
+            width: 150px;
+            margin-left: 70px;
+            
+        }
+        
+        .right_rec_button{
+           
+             height: 30px;
+            width: 150px;
+
+            
+        }
+        .margin_value{
+            margin-top: 30px;
+        }
+
+        .outer_food1_box{
+        	height: 40px;
+        	width: 80px;
+        	border: 1px solid black;
+        	margin-top: 30px ;
+             margin-left: 50px;
+             float: left;
+
+        }
+        .outer_food1_btn{
+        	height: 40px;
+        	width: 80px;
+
+        }
+        .outer_last_box{
+        	clear: both;
+        	border: 1px solid black;
+        	height: 40px;
+        	width: 80px;
+        	margin-top: 30px ;
+            margin-left: 30px;
+            float: left;
+
+
+        }
+        .outer_last_btn{
+        	height: 40px;
+        	width: 80px;
+        }
+
+        .outer_last_box2{
+        	
+        	border: 1px solid black;
+        	height: 40px;
+        	width: 80px;
+        	margin-top: 30px ;
+            margin-left: 40px;
+            float: left;
+        }
+
+        
+
+        
+
+    </style>
+</head>
+<body>
+        <div class="outer_box" >
+
+        <div class="recbox">
+            <p id="para">PRICE</p>
+        </div>
+
+        <div class="price_outer_box">
+        	
+        </div>
+
+
+
+        <div class="recbox">
+            <p id="para1">#</p>
+        </div>
+
+
+
+        <div class="outer_button_box1">
+            <button onclick="show_number(1)" id="green_button">1</button>   
+        </div>
+
+        <div class="outer_button_box2">
+            <button onclick="show_number(2)" id="orange_button">2</button>
+        </div>
+
+        <div class="outer_button_box3">
+            <button onclick="show_number(3)" id="green_button">3</button>
+        </div>
+
+        <div class="outer_food1_box">
+        	<button id="food1" onclick="show_food1()" class="outer_food1_btn" >FOOD-1</button>
+
+        </div>
+
+        <div class="outer_button_box4">
+            <button  onclick="show_number(4)" id="orange_button">4</button>
+            
+        </div>
+
+        <div class="outer_button_box2">
+            <button  onclick="show_number(5)" id="orange_button">5</button>
+        </div>
+
+        <div class="outer_button_box3">
+            <button  onclick="show_number(6)" id="orange_button">6</button>
+        </div>
+
+        <div class="outer_food1_box">
+        	<button id="food2" onclick="show_food2()" class="outer_food1_btn" > FOOD-2</button>
+
+        </div>
+
+        <div class="outer_button_box4">
+            <button onclick="show_number(7)" id="green_button">7</button>
+        </div>
+
+        <div class="outer_button_box2">
+            <button onclick="show_number(8)" id="orange_button">8</button>
+        </div>
+
+        <div class="outer_button_box3">
+            <button onclick="show_number(9)" id="green_button">9</button>
+        </div>
+
+        <div class="outer_food1_box">
+        	<button id="food3" onclick="show_food3()" class="outer_food1_btn" >FOOD-3</button>
+
+        </div>
+
+        <div class="outer_button_box5">
+            <button onclick="show_number(0)" id="violet_button">0</button>
+        </div>
+
+        <div class="outer_food1_box">
+        	<button id="ad_pri" onclick="add_price()" class="outer_food1_btn" >ADD PRICE</button>
+
+        </div>
+
+        <div class="outer_enter_box" >
+            <button onclick="show_enter()" class=" enter_button">Enter</button>
+            
+        </div>
+        <div class="reset_outer_button" >
+        <button onclick="reset()" class="reset_button" >Reset</button>
+        </div>
+
+        <div class="outer_last_box">
+        	<button id="special" onclick="show_special()" class="outer_last_btn">Special-Offer</button>
+        </div>
+
+        <div class="outer_last_box2">
+        	<button id="tax" onclick="show_tax()" class="outer_last_btn">Tax</button>
+        </div>
+
+        <div class="outer_last_box2">
+        	<button  id="bill" onclick="show_bill()" class="outer_last_btn">Generate Bill</button>
+        </div>
+
+        
+
+
+
+
+
+    </div>
+
+        <div class="outer_box2" >
+           <div class="right_inner_box">
+           	<p> FOOD PRICE </p>
+           </div> 
+           <dir class="outer_box2" style="margin-right: 5px">
+           	<p>F</p>
+           	 
+           </dir>
+        </div>
+
+    <script>
+    	var array_value=[];
+    	var object_value={};
+        function show_number(num) {
+           
+            var food_color1 =document.getElementById("food1").style.color 
+            var food_color2 =document.getElementById("food2").style.color 
+            var food_color3 =document.getElementById("food3").style.color
+            var price_color = document.getElementById("para").style.color
+             console.log(price_color)
+             if(price_color == "green")
+             {
+             if(food_color1 == "green" || food_color2 == "green" || food_color3 == "green"  )
+            {
+            	
+            	if (document.getElementById("para").innerHTML== "PRICE")
+                {
+                    document.getElementById('para').innerHTML =""
+                }
+                document.getElementById("para").innerHTML +=num
+             }
+         
+            }
+
+           if( price_color == "black" || price_color == "") 
+           {
+            if(food_color1 == "green" || food_color2 == "green" || food_color3 == "green"   )
+            {
+            	if (document.getElementById("para1").innerHTML== "#")
+                {
+                    document.getElementById('para1').innerHTML =""  
+                }
+                document.getElementById("para1").innerHTML +=num
+             }
+        }
+      }
+
+
+
+        function add_price(){
+        	var current_color = document.getElementById("ad_pri").style.color
+        	if(current_color == "green"){
+                    document.getElementById("ad_pri").style.color = "black"
+                }else{
+                    document.getElementById("ad_pri").style.color = "green"
+                }
+
+        }
+            
+        function show_food1()
+        {
+        	var current_color = document.getElementById("food1").style.color
+        	if(current_color == "green"){
+                    document.getElementById("food1").style.color = "black"
+                }else{
+                    document.getElementById("food1").style.color = "green"
+                }
+
+         }
+
+         function show_food2()
+        {
+        	var current_color = document.getElementById("food2").style.color
+        	if(current_color == "green"){
+                    document.getElementById("food2").style.color = "black"
+                }else{
+                    document.getElementById("food2").style.color = "green"
+                }
+
+         }
+
+         function show_food3()
+        {
+        	var current_color = document.getElementById("food3").style.color
+        	if(current_color == "green"){
+                    document.getElementById("food3").style.color = "black"
+                }else{
+                    document.getElementById("food3").style.color = "green"
+                }
+
+         }
+
+         function show_special()
+        {
+        	var current_color = document.getElementById("special").style.color
+        	if(current_color == "green"){
+                    document.getElementById("special").style.color = "black"
+                }else{
+                    document.getElementById("special").style.color = "green"
+                }
+
+         }
+
+
+           function show_tax()
+        {
+        	var current_color = document.getElementById("tax").style.color
+        	if(current_color == "green"){
+                    document.getElementById("tax").style.color = "black"
+                }else{
+                    document.getElementById("tax").style.color = "green"
+                }
+
+             var total_value = document.querySelector("#para");
+                var total = 0;
+                for(i = 0 ; i < array_value.length; i++){
+                    total = total + array_value[i];
+                }
+                total_value.textContent = total;
+
+         }
+
+
+           function show_bill()
+        {
+        	var current_color = document.getElementById("bill").style.color
+        	if(current_color == "green"){
+                    document.getElementById("bill").style.color = "black"
+                }else{
+                    document.getElementById("bill").style.color = "green"
+                }
+
+         }
+
+            
+           function show_enter(){
+         	 var input_value =Number (document.getElementById("para1").innerHTML)
+             array_value.push(input_value)
+             var output_text = object_value.Food 
+             var parent_value = document.querySelector(".right_inner_box")
+             var old_values = parent_value.querySelectorAll("div");//used to get how many times div created in score card
+             var new_value = document.createElement("div")
+             var elemnt =  document.getElementById("btn1")
+             parent_value.appendChild(new_value)
+             var food_color1 =document.getElementById("food1").style.color 
+            var food_color2 =document.getElementById("food2").style.color 
+            var food_color3 =document.getElementById("food3").style.color
+            var price_value = Number (document.getElementById("para").innerHTML)
+            var price_color = document.getElementById("ad_pri").style.color
+            
+            if (food_color1 == "green" && price_color =="green") 
+            {
+             value_total1 = input_value*40
+             new_value.textContent = "FOOD-1 " +" - " + input_value;
+             array_value.push(value_total1)
+             var price_color =document.getElementById("ad_pri").style.color
+             price_color ="black"
+
+
+            }
+            if (food_color2 == "green" && price_color =="green" ) 
+            {
+            	 value_total2 = input_value*25
+
+             new_value.textContent = "FOOD-2 " +" - " + input_value;
+             array_value.push(value_total2)
+             add_price()
+
+            }
+            if (food_color3 == "green" && price_color =="green") 
+            {
+            	 value_total3 = input_value*70
+
+             new_value.textContent = "FOOD-3 " +" - " + input_value;
+             array_value.push(value_total3)
+             add_price()
+
+            }
+         	console.log(array_value)
+         	var food_color1 =document.getElementById("food1").style.color 
+            var food_color2 =document.getElementById("food2").style.color 
+            var food_color3 =document.getElementById("food3").style.color
+            //var input_value =Number (document.getElementById("para1").innerHTML)
+            document.getElementById("para1").innerHTML = "#"
+            document.getElementById("para").innerHTML = "PRICE"
+            if(food_color1 == "green")
+            {
+            	show_food1()
+            }
+            if(food_color2 == "green")
+            {
+            	show_food2()
+            }
+            if(food_color3 == "green")
+            {
+            	show_food2()
+            }
+
+
+         }
+
+         
+
+
+
+
+        
+    </script>
+    
+</body>
+</html>
